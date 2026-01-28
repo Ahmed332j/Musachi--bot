@@ -1,0 +1,57 @@
+{
+  "name": "musachi-bot",
+  "version": "2.0.0",
+  "description": "⚔️ MUSACHI-BOT - بوت واتساب أسطوري متعدد الوظائف",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests yet\" && exit 0",
+    "clean": "rm -rf sessions/* database.json",
+    "pm2-start": "pm2 start index.js --name musachi-bot",
+    "pm2-stop": "pm2 stop musachi-bot",
+    "pm2-restart": "pm2 restart musachi-bot",
+    "pm2-logs": "pm2 logs musachi-bot"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "musachi",
+    "arabic",
+    "gaming",
+    "entertainment"
+  ],
+  "author": "Musachi <+216 53 305 767>",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^9.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "axios": "^1.7.9",
+    "chalk": "^4.1.2",
+    "moment-timezone": "^0.5.46",
+    "node-fetch": "^2.7.0",
+    "file-type": "^16.5.4",
+    "form-data": "^4.0.1",
+    "cheerio": "^1.0.0",
+    "jimp": "^0.22.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ahmed332j/Musachi-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ahmed332j/Musachi-bot/issues"
+  },
+  "homepage": "https://github.com/Ahmed332j/Musachi-bot#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "users": {},
+  "chats": {},
+  "stats": {
+    "totalUsers": 0,
+    "totalChats": 0,
+    "commandsUsed": 0
+  },
+  "settings": {
+    "botName": "Yuki-WaBot",
+    "prefix": ".",
+    "ownerNumbers": [
+      "21653305767"
+    ]
+  }
+}
